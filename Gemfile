@@ -13,9 +13,8 @@ gem 'test-kitchen', '~> 3.7'
 
 # Test Kitchen drivers
 gem 'kitchen-dokken', '~> 2.20'      # For CI/CD testing
-gem 'kitchen-docker', '~> 3.0'       # For devcontainer testing (default)
-gem 'kitchen-inspec', '~> 2.6'
-
+gem 'kitchen-docker', '~> 2.20'      # For devcontainer testing (default)
+gem 'kitchen-inspec', '~> 3.0'
 # Code quality and linting
 gem 'cookstyle', '~> 8.1'
 
